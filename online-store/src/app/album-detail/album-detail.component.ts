@@ -13,7 +13,7 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
 })
 
 export class AlbumDetailComponent implements OnInit {
-  albumId: number;
+  albumId: string;
   albumToDisplay;
 
   constructor(
